@@ -1,0 +1,500 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)http://citforum.amursu.ru/pp/excel72.shtml -->
+<HTML><HEAD><TITLE>Решение прикладных задач в Excel - Задачи оптимизации</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1251">
+<META content="Информационные технологии, " name='KeyWords"'>
+<META content=all name=Robots>
+<META 
+content="http://www.citforum.ru, Решение прикладных задач в Excel, Задачи оптимизации" 
+name=Description>
+<META content=Static name=Document-state><LINK 
+href="Решение прикладных задач в Excel - Задачи оптимизации.files/forum.css" 
+type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.2745.2800" name=GENERATOR></HEAD>
+<BODY text=#000000 vLink=#003860 aLink=#800000 link=#006890 bgColor=#ffffff 
+topMargin=0 marginheight="0"><A name=top></A>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=5 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <P><FONT face=arial size=2><B><A 
+            href="http://www.citforum.ru/">http://www.citforum.ru/</A></B></FONT></P></TD>
+          <TD><!--TopList COUNTER-->
+            <SCRIPT language=JavaScript><!--
+d=document;js=10;a=';r='+escape(d.referrer)
+//--></SCRIPT>
+
+            <SCRIPT language=JavaScript1.1><!--
+js=11;a+=';j='+navigator.javaEnabled()
+//--></SCRIPT>
+
+            <SCRIPT language=JavaScript1.2><!--
+js=12;s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+//--></SCRIPT>
+
+            <SCRIPT language=JavaScript1.3><!--
+js=13//--></SCRIPT>
+
+            <SCRIPT language=JavaScript><!--
+d.write('<img src="http://top.list.ru/counter'+
+'?id=26978;js='+js+a+'" alt="" height=1 width=1>')
+if(js>11)d.write('<'+'!-- ')//--></SCRIPT>
+            <NOSCRIPT><IMG height=1 alt="" 
+            src="Решение прикладных задач в Excel - Задачи оптимизации.files/counter.gif" 
+            width=1></NOSCRIPT>
+            <SCRIPT 
+            language=JavaScript><!--
+if(js>11)d.write('--'+'>')
+//--></SCRIPT>
+<!--TopList COUNTER--></TD>
+          <TD align=right>
+            <P><FONT size=2><A 
+            href="http://citforum.amursu.ru/index.html">Сервер</A> содержит 
+            море(!) аналитической 
+  информации!</FONT></P></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD bgColor=#008080>
+      <TABLE cellSpacing=1 cellPadding=1 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/">Home</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.citforum.ru/search.shtml">Поиск</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/rubricator/">Рубрикатор</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/news.shtml">Новости сервера</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.citmgu.ru/">Учебный центр</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.mistral.ru/">Книжный 
+    магазин</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR>
+  <TR>
+    <TD align=middle>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><IMG height=60 alt=Logo 
+            src="Решение прикладных задач в Excel - Задачи оптимизации.files/citlogo6.gif" 
+            width=160 border=0></TD>
+          <TD width="100%"><IMG height=60 
+            src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+            width=5 border=0></TD>
+          <TD><IMG height=60 
+            src="Решение прикладных задач в Excel - Задачи оптимизации.files/adv.gif" 
+            width=15 border=0></TD>
+          <TD><!-- Russian LinkExchange code START -->
+            <SCRIPT language=JavaScript>
+<!--
+var
+a3=Math.floor(Math.random()*100000000) 
+document.write("<iframe src=http://www.linkexchange.ru/cgi-bin/erle.cgi?026012?" + a3 + " frameborder=0 vspace=0 hspace=0 width=468 height=60  marginwidth=0  marginheight=0 scrolling=no><a href=http://www.linkexchange.ru/users/026012/goto.map target=_top><img src=http://www.linkexchange.ru/cgi-bin/rle.cgi?026012?" + a3 + " alt=\"RLE Banner Network\" border=0 height=60 width=468></a></iframe>");
+//-->
+</SCRIPT>
+<!-- Russian LinkExchange code END --></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#daecd7><IMG height=4 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE>
+<P>&nbsp; <!-- start -->
+<H4>7.2. Задачи оптимизации</H4>
+<P align=justify>В предыдущей главе мы рассмотрели задачу поиска значения 
+параметра, позволяющего достичь конкретной цели. 
+<P align=justify>Решаемые задачи могут быть более сложными. Например, поиск 
+нескольких параметров, обеспечивающих некоторый наперед заданный результат. 
+<P align=justify>Кроме того, иногда интересует не конкретный результат, а 
+минимально или максимально возможный. Например, как минимизировать затраты на 
+содержание персонала или максимизировать прибыли от реализации продукции? 
+<P align=justify>Такие задачи в Excel решают с помощью <I>Поиска решения</I>. 
+<P><B>7.2.1 Задача линейного программирования</B> 
+<UL><I>Если математическая модель исследуемого процесса и ограничения на 
+  значения ее параметров линейны, то задача достижения цели является задачей 
+  линейного программирования</I>. </UL>
+<P align=justify>Познакомимся с решением этих задач на следующем примере. 
+<P><I><B>7.2.1.1 Составление штатного расписания</B></I> 
+<P align=justify>Усложним рассмотренную в предыдущей главе задачу. Пусть 
+известно, что для нормальной работы больницы необходимо 5-7 санитарок, 8-10 
+медсестер, 10 врачей, 3 заведующих отделениями, главный врач, заведующий 
+аптекой, заведующая хозяйством и заведующий больницей. Общий месячный фонд 
+зарплаты должен быть минимален. Необходимо определить, какими должны быть оклады 
+сотрудников больницы, при условии, что оклад санитарки не должен быть меньше 
+прожиточного минимума 80 грн. 
+<P align=justify>В качестве модели решения этой задачи возьмем, как и в первой 
+главе, линейную. Запишем ее так: 
+<P 
+align=justify>N<SUB>1</SUB>*A<SUB>1</SUB>*C+N<SUB>2</SUB>*(A<SUB>2</SUB>*C+B<SUB>2</SUB>)+...+N<SUB>8</SUB>*(A<SUB>8</SUB>*C+B<SUB>8</SUB>) 
+= Минимум. 
+<P align=justify>В этом уравнении нам не известно число санитарок (N1), 
+медсестер (N2), врачей (N3) и оклад санитарки (С). 
+<P align=justify>Используя <I>Поиск решения</I>, найдем их. <FONT color=purple>
+<UL>
+  <P align=justify>Откройте созданный в предыдущей главе файл hospital.xls. 
+  <P align=justify>В меню <I>Сервис</I> активизируйте команду <I>Поиск 
+  решения</I>. 
+  <P align=justify>В окне <I>Установить целевую ячейку</I> укажите ячейку F12, 
+  содержащую модель. 
+  <P align=justify>Поскольку необходимо минимизировать общий месячный фонд 
+  зарплаты, то активизируйте радиокнопку <I>Минимальному значению</I>. 
+  <P align=justify>Используя кнопку <I>Добавить</I>, опишите ограничения задачи. 
+
+  <P align=justify>Окончательно окно <I>Поиска решения</I> будет выглядеть так: 
+  <P align=center><IMG height=277 alt=" " 
+  src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_03.gif" 
+  width=479 border=0> 
+  <P align=justify>Опишите <I>Параметры</I> поиска, как показано на рис. 7.1. 
+  <P align=justify>Щелкните на кнопке <I>ОК</I>, а затем - <I>Выполнить</I>. 
+</P></UL></FONT>
+<P align=justify>Решение приведено на рис. 7.2. Оно тривиально: чем меньше 
+сотрудников и чем меньше их оклад, тем меньше месячный фонд заработной платы. 
+<P align=justify>Автор специально привел здесь эту задачу, чтобы читателю было 
+легче освоить новый материал. 
+<P align=justify>Для закрепления пройденного материала решим следующую задачу. 
+<P align=justify><I><B>7.2.1.2 План выгодного производства</B></I> 
+<P align=justify>Предположим, что мы решили производить несколько видов конфет. 
+Назовем их условно "A", "B" и "C". Известно, что реализация 10-и килограмм 
+конфет "А" дает прибыль 9 грн., "В" - 10 грн. и "С" - 16 грн. 
+<P align=center><IMG height=253 alt=" " 
+src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_04.gif" 
+width=484 border=0> 
+<P align=center>Рисунок 7. 1 - Описание параметров поиска решения 
+<P align=center><IMG height=229 alt=" " 
+src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_05.gif" 
+width=542 border=0> 
+<P align=center>Рисунок 7. 2 - Решение задачи линейного программирования 
+<P align=justify>Конфеты можно производить в любых количествах (сбыт обеспечен), 
+но запасы сырья ограничены. Необходимо определить, каких конфет и сколько 
+десятков килограмм необходимо произвести, чтобы общая прибыль от реализации была 
+максимальной. 
+<P align=justify>Нормы расхода сырья на производство 10 кг конфет каждого вида 
+приведены ниже. 
+<P>
+<CENTER>
+<TABLE cellSpacing=0 cellPadding=5 border=1>
+  <TBODY>
+  <TR>
+    <TH>Сырье</TH>
+    <TH colSpan=3>Нормы расхода сырья</TH>
+    <TH>Запас сырья</TH></TR>
+  <TR>
+    <TH>&nbsp;</TH>
+    <TH>А</TH>
+    <TH>В</TH>
+    <TH>С</TH>
+    <TH>&nbsp;</TH></TR>
+  <TR>
+    <TD>Какао</TD>
+    <TD>18</TD>
+    <TD>15</TD>
+    <TD>12</TD>
+    <TD>360</TD></TR>
+  <TR>
+    <TD>Сахар</TD>
+    <TD>6</TD>
+    <TD>4</TD>
+    <TD>8</TD>
+    <TD>192</TD></TR>
+  <TR>
+    <TD>Наполнитель</TD>
+    <TD>5</TD>
+    <TD>3</TD>
+    <TD>3</TD>
+    <TD>180</TD></TR>
+  <TR>
+    <TD>Прибыль</TD>
+    <TD>9</TD>
+    <TD>10</TD>
+    <TD>16</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE></CENTER><FONT color=purple>
+<UL>
+  <P align=justify>Введите исходные данные и формулы в электронную таблицу, как 
+  указано ниже. 
+  <P align=center><IMG height=199 alt=" " 
+  src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_06.gif" 
+  width=387 border=0> 
+  <P align=justify>В меню <I>Сервис</I> активизируйте команду <I>Поиск 
+  решения</I> и опишите его параметры, как указано на рис 7.3. 
+  <P align=justify>Не забудьте указать в <I>Параметрах</I> на <I>Линейность 
+  модели</I>. 
+  <P align=justify>Запустите <I>Поиск решения</I>. Если Вы сделали все верно, то 
+  решение будет таким, как на рис 7.4. </P></UL></FONT>
+<P align=justify>Из решения видно, что оптимальный план выпуска предусматривает 
+изготовление 80 кг конфет "В" и 20 кг конфет "С". Конфеты "А" производить не 
+стоит. Полученная Вами прибыль составит 400 грн. 
+<P><I><B>7.2.1.3 Задачи книги Solvsamp.xls</B></I> 
+<P align=justify>Книга Solvsamp.xls, входящая в состав Excel, в папке 
+Examples\Solver содержит более сложные примеры использования средств процедуры 
+<I>Поиска решения</I>. 
+<P align=center><IMG height=277 alt=" " 
+src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_07.gif" 
+width=479 border=0> 
+<P align=center>Рисунок 7. 3 - Описание параметров поиска решения 
+<P align=center><IMG height=199 alt=" " 
+src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_08.gif" 
+width=297 border=0> 
+<P align=center>Рисунок 7. 4 - План выгодного производства 
+<P align=justify>Листы с примерами расчетов из этой книги можно использовать как 
+образцы решения Ваших задач оптимизации. Чтобы изучить листы с задачами 
+линейного программирования "Перевозка грузов"<SUP><A 
+href="http://citforum.amursu.ru/pp/excel72.shtml#1">1)</A></SUP>, "График 
+работы" и "Оборотный капитал", откройте книгу, перейдите на нужный лист, затем 
+выполните команду <I>Поиск решения</I> из меню <I>Сервис</I>. Целевые ячейки, 
+влияющие ячейки и ограничения на листах уже заданы. 
+<P align=justify><B>7.2.2 Нахождение экстремума без ограничений</B> 
+<P align=justify>Книга Solverex.xls, входящая в состав Excel, содержит пример 
+решения типичной задачи маркетинга: определения затрат на рекламу, при которых 
+прибыль от реализации товара будет максимальной. Решение этой задачи позволяет 
+определить: "Стоит ли вкладывать дополнительные средства в рекламу, чтобы 
+увеличить прибыль?". 
+<P align=justify>Задачи, подобные приведенной, демонстрируют использование 
+процедуры <I>Поиска решения</I> для подбора таких значений параметров, которые 
+максимизируют значение нелинейной функции. 
+<P align=justify>Прежде чем знакомиться с примером этого листа, рассмотрим 
+упрощенный вариант этой задачи: поиск максимума функции при изменении одного 
+параметра. 
+<P align=justify>Исходные данные задачи состоят из 2-х блоков: "Планируемые 
+показатели" и "Данные о продукции". Так, в 1-м квартале запланированы следующие 
+показатели реализации: 
+<UL>
+  <LI>сезонный фактор (ячейка В2) - равным 0.9<SUP><A 
+  href="http://citforum.amursu.ru/pp/excel72.shtml#2">2)</A></SUP>; 
+  <LI>затраты на заработную плату персонала (ячейка В9) - 8 тыс. грн; 
+  <LI>затраты на рекламу (ячейка В10) - 10 тыс. грн. </LI></UL>
+<P align=justify>Данные о продукции: 
+<UL>
+  <LI>цена реализации (ячейка В17) - 40 грн; 
+  <LI>себестоимость (ячейка В18) - 25 грн. </LI></UL>
+<P align=justify>Расчет планируемых показателей производят так: <FONT 
+color=purple>
+<UL>
+  <P>
+  <LI>объем сбыта продукции<SUP><A 
+  href="http://citforum.amursu.ru/pp/excel72.shtml#3">3)</A></SUP> (ячейка В4) 
+  нелинейно зависит от сезонного фактора и затрат на рекламу 
+  <P align=center>=35*B2*(B10+3000)^0,5 
+  <P></P>
+  <LI>доход с оборота определяется как ожидаемое количество проданных единиц 
+  продукции (ячейка В4), умноженное на себестоимость продукции, поэтому в ячейку 
+  В5 введем формулу 
+  <P align=center>=B4*B17 
+  <P></P>
+  <LI>фраза "себестоимость реализованной продукции" на языке математики выглядит 
+  как 
+  <P align=center>B6=B4*B18 
+  <P></P>
+  <LI>очевидно, что валовая прибыль, имеющая в электронной таблице адрес В7, 
+  определяется как 
+  <P align=center>=B5-B6 
+  <P></P>
+  <LI>накладные расходы фирмы будем исчислять в объеме 15% дохода с оборота, то 
+  есть в ячейку B11 введем формулу 
+  <P align=center>=0,15*B5 
+  <P></P>
+  <LI>валовые издержки рассчитаем как сумму затрат на заработную плату 
+  персонала, рекламу и накладные расходы, то есть 
+  <P align=center>B12=СУММ(B9:B11) 
+  <P></P>
+  <LI>прибыль от продукции определим как валовую прибыль минус валовые издержки, 
+  то есть 
+  <P align=center>B14=B7-B12 
+  <P></P>
+  <LI>рентабельность 
+  <P align=center>B15=B14/B5 </P></LI></UL></FONT>
+<P align=justify>Если вышеперечисленные данные и формулы ввести в таблицу, то 
+результаты вычислений будут такими, как показано на рис. 7.5. <FONT 
+color=purple>
+<UL>
+  <P align=justify>Активизируем <I>Сервис</I>=&gt;<I>Поиск решения</I> и опишем 
+  условия решения задачи: 
+  <LI>задайте ячейку B14, как содержащую целевую функцию<SUP><A 
+  href="http://citforum.amursu.ru/pp/excel72.shtml#4">4)</A></SUP>; 
+  <LI>определите цель оптимизации - <I>Максимальное значение</I>; 
+  <LI>укажите ячейку, значение которой будет изменяться при поиске наилучшего 
+  решения<SUP><A 
+  href="http://citforum.amursu.ru/pp/excel72.shtml#5">5)</A></SUP> - B10; 
+  <LI>при назначении параметров укажите на нелинейность модели. Для остальных 
+  параметров используйте установки по умолчанию, которые подходят для решения 
+  большинства задач. 
+  <P align=justify>Щелкнув на кнопке <I>Выполнить</I>, Вы увидите следующий 
+  результат оптимизации (рис. 7.6). </P></LI></UL></FONT>
+<P align=justify>Как видно из полученного решения при, затратах на рекламу 17 
+093 грн. прибыль от реализации товара будет максимальной. Однако следует 
+отметить, что максимизация прибыли не обязательно соответствует наивысшему 
+значению рентабельности. Ее значение уменьшилось до 8%. 
+<P align=center><IMG height=388 alt=" " 
+src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_09.gif" 
+width=281 border=0> 
+<P align=center>Рисунок 7. 5 - Данные для поиска экстремума в задаче маркетинга 
+<UL><TT>
+  <P align=justify><I><B>Контрольное задание 7.2</B></I> 
+  <P align=justify>Покажите, что функция 
+  <P align=justify>f = (x-1)<SUP>2</SUP> + y2 - 0,5cos(2z) 
+  <P align=justify>имеет минимальное значение -0,5 при x=1; y=-7,9E-07 и 
+  z=3,14159. 
+  <UL>
+    <P align=justify><I>Указание</I> 
+    <P align=justify>В качестве исходных данных для поиска минимума примите x=1, 
+    y=2 и z=3. 
+    <P align=center><IMG height=386 alt=" " 
+    src="Решение прикладных задач в Excel - Задачи оптимизации.files/ex_10.gif" 
+    width=281 border=0> 
+    <P align=center>Рисунок 7. 6 - Результат оптимизации </P></UL></TT></UL>
+<P><B>7.2.3 Задача нелинейного программирования</B> 
+<UL>
+  <P align=justify><I>Если математическая модель исследуемого процесса или 
+  ограничения на значения ее параметров нелинейны, то задача достижения цели 
+  является задачей нелинейного программирования</I>. </P></UL>
+<P align=justify>Решите предыдущую задачу при условии, что затраты на рекламу не 
+могут превышать 12 000 грн. 
+<P align=justify>Решение задачи - 14 722 грн. 
+<P align=justify>Отметим, что в этом случае с каждой вложенной гривны Вы 
+получите 10 коп. дохода. 
+<UL><TT>
+  <P align=justify><I><B>Контрольное задание 7.3</B></I> 
+  <P align=justify>Покажите, что при ограничениях x + 2y &lt;= 8, 2x - y &lt;= 
+  12, x &gt;= 0, y &gt;= 0 функция 
+  <P align=justify>f = x(2 - x) + 2y(2 - y) 
+  <P align=justify>имеет максимальное значение 3 при x=1 и y=1. 
+  <UL>
+    <P align=justify><I>Указание</I> 
+    <P align=justify>В качестве исходных данных для поиска минимума примите x=0 
+    и y=0. </P></UL></TT></UL>
+<HR>
+
+<P><A name=1></A>1) Эту задачу иногда называют "Транспортная". 
+<P><A name=2></A>2) Сезонный фактор отражает колебания спроса на товар в 
+зависимости от времени года. Например, зимой чаще покупают теплые вещи. 
+<P><A name=3></A>3) Объем сбыта определяется количеством (штуками) проданной 
+продукции. 
+<P><A name=4></A>4) Помните, что в адресе должна указываться ячейка, в которой 
+содержится формула, а не числовое значение, дата, или текст. 
+<P><A name=5></A>5) Помните, что переменные - это числовые значения, а не даты, 
+формулы или текст. 
+<CENTER>
+<P><FONT size=-1><A href="http://citforum.amursu.ru/pp/excel71.shtml">Назад</A> 
+| <A href="http://citforum.amursu.ru/pp/excel70.shtml">Содержание</A> | <A 
+href="http://citforum.amursu.ru/pp/excel73.shtml">Вперед</A> </FONT></CENTER>
+<P>&nbsp; <!--end-->
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#daecd7><IMG height=4 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#008080>
+      <TABLE cellSpacing=1 cellPadding=1 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/index.html">В начало</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/pp/excel72.shtml#top">Наверх</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.citforum.ru/search.shtml">Поиск</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/rubricator/index.shtml">Рубрикатор</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://citforum.amursu.ru/news.shtml">Новости сервера</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.citmgu.ru/">Учебный центр</A></TD>
+          <TD align=middle bgColor=#daecd7><A class=head 
+            href="http://www.mistral.ru/">Книжный 
+    магазин</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <FORM action=http://citforum.amursu.ru/cgi-bin/Click.cgi method=get></TD>
+    <TD><INPUT type=hidden value=Bottom name=Banner></TD>
+    <TD align=right width="100%"><FONT size=2>Быстрый переход &gt;&gt;&gt; 
+      </FONT><SELECT size=1 name=Target> <OPTION 
+        value=http://citforum.amursu.ru/index.html selected>Индексная 
+        страница</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/internet/index.shtml>Internet-технологии</OPTION>&nbsp; 
+        <OPTION value=http://citforum.amursu.ru/nets/index.shtml>Сетевые 
+        технологии</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/database/index.shtml>Базы 
+        данных</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/operating_systems/index.shtml>Операционные 
+        системы</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/programming/index.shtml>Программирование</OPTION>&nbsp; 
+        <OPTION value=http://citforum.amursu.ru/hardware/index.shtml>Аппаратные 
+        платформы</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/seminars/index.shtml>Материалы 
+        конференций</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/mcp/index.shtml>MS-сертификация</OPTION>&nbsp; 
+        <OPTION value=http://citforum.amursu.ru/pp/index.shtml>Пользователям и 
+        преподавателям</OPTION>&nbsp; <OPTION 
+        value=http://citforum.amursu.ru/cfin/index.shtml>Корпоративные 
+        ресурсы</OPTION>&nbsp;</SELECT> <INPUT type=hidden value=Bottom 
+      name=Referer><INPUT type=submit value=Go!></TD>
+    <TD></FORM></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR>
+  <TR>
+    <TD bgColor=#daecd7><IMG height=4 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR>
+  <TR>
+    <TD><IMG height=5 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD><FONT size=2>Комментарии: <A 
+      href="mailto:info@citmgu.ru?Subject='From bottom of CIT FORUM'">mailto:info@citmgu.ru?Subject='From 
+      bottom of CIT FORUM'</A></FONT></TD>
+    <TD vAlign=top align=right>Copyright © <A 
+      href="http://citforum.ru/cgi-bin/Click.cgi?Banner=cit_key.gif&amp;Target=http://www.citmgu.ru/&amp;Referer=TOP_INLINER"><IMG 
+      height=38 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/logo_cit.gif" 
+      width=134 border=0></A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#daecd7><IMG height=4 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR>
+  <TR>
+    <TD align=middle><!--Редактировать здесь! Впишите URL и название организации, поддерживающей зеркало, электронный адрес администратора (вебмастера)--><FONT 
+      size=2>Mirrored by <A href="http://www.yourhost.here/">IC AmSU</A>, <A 
+      href="mailto:webmaster@amursu.ru">webmaster@amursu.ru</A></FONT> <!--Конец области редактирования--></TD></TR>
+  <TR>
+    <TD bgColor=#daecd7><IMG height=4 
+      src="Решение прикладных задач в Excel - Задачи оптимизации.files/1x1.gif" 
+      width=1 border=0></TD></TR></TBODY></TABLE></P></BODY></HTML>

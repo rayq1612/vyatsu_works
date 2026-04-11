@@ -1,0 +1,96 @@
+BODY {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #ffffff
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+SELECT {
+	FONT-SIZE: 8pt; WIDTH: 200px
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #4271bd; HEIGHT: 20px
+}
+UL {
+	PADDING-LEFT: 30px; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+h {
+	BACKGROUND-COLOR: #d6df20
+}
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #4271bd; FONT-FAMILY: Verdana, Arial, Helvetica; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ae5e5e
+}
+A.anormal {
+	COLOR: #871a14
+}
+A.anormal:hover {
+	COLOR: #e4c032
+}
+A.navbar {
+	COLOR: #ffffff
+}
+A.navbar:hover {
+	COLOR: #ffff00
+}
+A.text1 {
+	COLOR: #871a14
+}
+P {
+	FONT-SIZE: 8pt; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.text1 {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.page {
+	COLOR: #714042
+}
+.head {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #933131; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #f1e7e4; TEXT-ALIGN: left
+}
+.headforum {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #933131; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #ffcc66; TEXT-ALIGN: left
+}
+.redbold {
+	FONT-WEIGHT: bold; COLOR: #9a4e4e; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.bluenormal {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #4271bd
+}
+.blacknormal {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #000000
+}
+.blackbold {
+	FONT-WEIGHT: normal; COLOR: #000000
+}
+.paddingleft10 {
+	PADDING-LEFT: 10px
+}
+.right {
+	BACKGROUND-COLOR: #ab5858
+}
+.left {
+	BACKGROUND-COLOR: #f1e7e4; TEXT-ALIGN: justify
+}
+.left1 {
+	BACKGROUND-COLOR: #fefcfc
+}
+.leftwhite {
+	BACKGROUND-COLOR: #ffffff
+}
+.lefthead {
+	COLOR: #933131; BACKGROUND-COLOR: #f1e7e4
+}
+.def {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+.ny {
+	WIDTH: 115px; POSITION: absolute; HEIGHT: 80px
+}
