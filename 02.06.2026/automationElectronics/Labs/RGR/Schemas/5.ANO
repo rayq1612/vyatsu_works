@@ -1,0 +1,124 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.3 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                             AC Analysis of 5                             ***
+***                           12.06.2026 11:50:28                            ***
+********************************************************************************
+Limits
+======
+Frequency Range          List 640u
+Number of Points         1001
+Temperature              Linear 27
+Maximum Change %         5
+Noise Input              NONE
+Noise Output             2
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Auto Scale Ranges        On
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            -2.366p  2          -851.761n  3           700.000m 
+4            -3.300  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1             D2
+Using model:         1N4135         1N4135
+
+Capacitance Terms:
+CAP                 12.079p         7.244p
+
+Current Terms:
+ID                -700.706p        -3.303n
+
+Resistance Terms:
+REQ              999.001MEG     999.001MEG
+
+Voltage Terms:
+VD                -700.001m        -3.300 
+
+Power DC Terms:
+PD                 490.495p        10.901n
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Id                -700.706p        -3.303n
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+ic                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:              V1.RS             R1             R4
+V                    -2.366p       851.759n       851.761n
+Power DC Terms:
+PD                5.598E-021         2.015f         0.202f
+
+DC Pin Currents:
+Ir                   -2.366n         2.366n       236.600p
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1
+V                  -851.761n
+Power DC Terms:
+PS                    0.000 
+
+DC Pin Currents:
+Ic                    0.000 
+
+Device Variables:
+ic                    0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                 V1
+Using model:         GENERAL
+V                    -2.366p
+Power DC Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource              -2.366n
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V3             V4
+V                    3.300        700.000m
+Power DC Terms:
+PG                  10.901n       490.494p
+
+DC Pin Currents:
+ISource             -3.303n      -700.706p
+
+
